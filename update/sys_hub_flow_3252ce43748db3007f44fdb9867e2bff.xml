@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send email notification to receiver of new peer review feedback</description>
+        <internal_name>notify_new_peer_review_feedback</internal_name>
+        <label_cache>[{"name":"01d1d6e7-37db-49fd-9cd4-fb8a46fdef72.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"Created_1.current.sys_created_on","label":"Trigger➛Feedback Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_peerreview_feedback","column_name":"sys_created_on"},{"name":"Created_1.current.receiver","label":"Trigger➛Feedback Record➛Receiver","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_peerreview_feedback","column_name":"receiver"},{"name":"Created_1.current.receiver.name","label":"Trigger➛Feedback Record➛Receiver➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.receiver.email","label":"Trigger➛Feedback Record➛Receiver➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Notify New Peer Review Feedback</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-01 01:01:24</sys_created_on>
+        <sys_id>3252ce43748db3007f44fdb9867e2bff</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Notify New Peer Review Feedback</sys_name>
+        <sys_package display_value="PeerReview" source="x_snc_peerreview">ac9b1f92db817b00d449f78eaf9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeerReview">ac9b1f92db817b00d449f78eaf9619f9</sys_scope>
+        <sys_update_name>sys_hub_flow_3252ce43748db3007f44fdb9867e2bff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-01 01:13:37</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3252ce43748db3007f44fdb9867e2bff"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3252ce43748db3007f44fdb9867e2bff"/>
+</record_update>
